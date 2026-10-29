@@ -1,0 +1,85 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261023173551
+Username: CYPHER\Admin
+RunAs User: CYPHER\Admin
+Configuration Name: 
+Machine: CYPHER (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\NewProof\services\NewsProof\install-d-drive-services.ps1
+Process ID: 29872
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+?????? 'NewsProofRedis'...
+?? 'NewsProofRedis' ?????
+
+??????????: sc start NewsProofRedis
+PS>TerminatingError(): "You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+You cannot call a method on a null-valued expression.
+At D:\NewProof\services\NewsProof\install-d-drive-services.ps1:59 char:9
++     if ($exists.Trim() -ne '1') {
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+**********************
+Windows PowerShell transcript end
+End time: 20261023173553
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261023173617
+Username: CYPHER\Admin
+RunAs User: CYPHER\Admin
+Configuration Name: 
+Machine: CYPHER (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\NewProof\services\NewsProof\install-d-drive-services.ps1
+Process ID: 18380
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+PostgreSQL ready at 127.0.0.1:5432 (newsproof).
+Redis ready at 127.0.0.1:6379.
+**********************
+Windows PowerShell transcript end
+End time: 20261023173617
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261023174117
+Username: CYPHER\Admin
+RunAs User: CYPHER\Admin
+Configuration Name: 
+Machine: CYPHER (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\NewProof\services\NewsProof\install-d-drive-services.ps1
+Process ID: 24436
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PostgreSQL ready at 127.0.0.1:5432 (newsproof).
+Redis ready at 127.0.0.1:6379.
+**********************
+Windows PowerShell transcript end
+End time: 20261023174117
+**********************

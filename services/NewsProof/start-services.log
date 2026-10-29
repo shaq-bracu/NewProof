@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261023173430
+Username: CYPHER\Admin
+RunAs User: CYPHER\Admin
+Configuration Name: 
+Machine: CYPHER (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\NewProof\services\NewsProof\start-local-services.ps1
+Process ID: 11956
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+waiting for server to start.... stopped waiting
+pg_ctl: could not start server
+Examine the log output.
+PS>TerminatingError(): "PostgreSQL did not start. See postgres.log."
+PostgreSQL did not start. See postgres.log.
+PostgreSQL did not start. See postgres.log.
+At D:\NewProof\services\NewsProof\start-local-services.ps1:29 char:32
++ ... ITCODE -ne 0) { throw 'PostgreSQL did not start. See postgres.log.' }
++                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (PostgreSQL did ...e postgres.log.:String) [], RuntimeException
+    + FullyQualifiedErrorId : PostgreSQL did not start. See postgres.log.
+
+**********************
+Windows PowerShell transcript end
+End time: 20261023173430
+**********************

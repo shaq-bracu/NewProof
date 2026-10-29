@@ -1,0 +1,1 @@
+D:/NewProof/services/NewsProof/postgresql/pgsql/bin/postgres.exe "-D" "D:\NewProof\services\NewsProof\postgres-data" "-h" "127.0.0.1" "-p" "5432"
